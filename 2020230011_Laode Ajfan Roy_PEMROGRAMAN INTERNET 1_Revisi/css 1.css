@@ -1,0 +1,114 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	margin:0;
+	padding:0;
+	background:#0f0f0f;
+}
+
+.navbar {
+	width:100%;
+	height:80px;
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:80px;
+	text-align:center;
+	transition-duration:0.4s;
+    border-bottom: 1px solid #ECB365;
+}
+
+.navbar li a{
+	float:left;
+	width:16.66%;
+	font-size:18;
+	color:#ECB365;
+	text-decoration:none;
+	transition-duration:0.3s;
+
+}
+.navbar li a:hover{
+	background:#ffffff;
+	color:black;
+}
+.navbar li:hover ul{
+    width: 140px;
+}
+
+.footer{
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color:white;
+  background-color: #041C32;
+  text-align: center;
+  height:20px;
+  font-family:"Helvetica";
+}
+
+p{
+	margin-left:15px;
+}
+
+td{
+	color:white;
+}
+
+.input{
+	width:250px;
+	height:40px;
+	border-radius:15px;
+	outline:none;
+}
+
+.button{
+	width:150px;
+	height:40px;
+	background:#ffe770;
+	color:black;
+	border-radius:10px;
+	outline:none;
+	transition-duration: 0.3s;
+	border:1px solid #ffe770;;
+}
+
+.button:hover{
+	background:#202020;
+	color:#ffe770;
+	border:1px solid #ffe770;;
+}
+
+.pagination {
+	display: inline-block;
+  }
+  
+  .pagination a {
+	color: white;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+  }
+  
+  .pagination a.active {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  .pagination a:hover:not(.active) 
+   {background-color: #ddd;color : black}
+
+  table, th, td {
+	border:1px solid #ECB365;
+  }
+
+  #submit{
+	  background-color: #ECB365;
+	  outline: none;
+	  border: none;
+	  padding: 10px 20px;
+  }
+  
+  .aa{
+	  padding:200px 450px;
+	
+  }

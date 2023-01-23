@@ -1,0 +1,86 @@
+<html>
+    <html>
+        <head>
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+        <title>Haikyuu Profile</title>
+        <link rel="stylesheet" type="text/css" href="css 1.css">
+        </head>
+
+        <style>
+            .head{
+              background:#041C32;
+              color:black;
+            }
+            .login{
+              width: 40%;
+              background: #c08839;
+              height: 400px;
+              margin-top: 100px;
+              border-radius: 5px;  
+            }
+            .input{
+                width: 200px;
+                height: 35px;
+                border-radius: 10px;
+                border: 1px solid black;
+                margin-top: 5px;
+            }
+        </style>
+
+        <div class="head">
+            <table width=100% >
+            <tr>
+                </td>
+                </tr></table>
+                <ul class="navbar">
+                    <li><a href="HOME.html">HOME</a></li>
+                    <li><a href="ALL SEASON.html">ALL SEASON</a></li>
+                    <li><a href="COMIC.html">COMICS</a></li>
+                    <li><a href="MERCHANDISE.html">MERCHANDISE</a></li>
+                    <li><a href="ABOUT US.html">ABOUT US</a></li>
+                    <li><a href="LOGIN.html">LOGIN</a></li>
+            </ul>
+        </div>
+
+        <div class="form">
+            <form action="home.html" method="/" id="form" name="form">
+                <center><div class="login">
+                <center><br><br><img src="LOGIN 1.svg" width=50%><br>
+                <input type="text" placeholder="Masukkan Username" name="username" id="username" required autocomplete="off" class="input"><br>
+                <input type="password" placeholder="Masukkan Password" name="password" id="password" required class="input">
+                
+                <div class="tombol">
+            <input type="button" name="submit" id="submit" onclick="validasi()" value="Login" style="margin-top: 5px"><br>
+            <a href="" onclick="a()">Lupa Password</a> atau <a href="CREATE.html">Buat Akun</a> 
+            <script>
+                function a(){
+                    alert("Username : Admin, Password : Admin");
+                }
+            </script>
+                </div>
+            </form>
+        </div>
+
+        <script>
+            function validasi(){
+                if(form.username.value=="admin" && form.password.value=="admin"){
+                window.location="HOME.html";
+            }else{
+                alert("Maaf, Username atau Password yang anda masukan salah!");
+                }
+            }
+        </script>
+          <div class="footer"><table width="100%"> <tr>
+            <script type="text/javascript">
+
+            for ( var nilaiAwal=1; nilaiAwal <=6; nilaiAwal++ ) {
+        document.write('<td width=10%> <center> No Copyright by Owl </td>');
+        }
+        </script>
+        </tr>
+        </table>
+        </div>
+        </html>
